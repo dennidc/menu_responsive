@@ -1,0 +1,117 @@
+:root{
+    --Gris :      #f3f3f3;
+    --Verde:      #6cb500;
+    --Gris-Menu : #f3f3f3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+ max-width: 1200px;
+ margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.ancho figure img{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+}
+
+.hero-section {
+    position: relative;
+    background-image: url('imagenes/foto_slide.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.overlay {
+    width: 30%;
+}
+.overlay h1 {
+    font-size: 45px;
+    color: var(--Gris);
+    line-height: .9;
+}
+
+.titulos{
+    text-align: center;
+    padding: 40px;
+}
+
+.titulos p{
+    color: var(--Verde);
+}
+
+.figuras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.figuras figure{
+    background-color: var(--Gris-Menu);
+    height:300px;
+}
+
+.figuras figure img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.figuras figure figcaption h3{
+    color: var(--Verde);
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top:5%;
+    background-color: var(--Verde);
+    text-align: center;
+    padding: 10px;
+}
+
+.imgFooter{
+    width: 20%;
+    height: auto;
+}
+
+#iconomenu{
+    display: none;
+}

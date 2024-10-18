@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px){
+    :root{
+        --Gris :      #f3f3f3;
+        --Verde:      #6cb500;
+        --Gris-Menu : #f3f3f3;
+    }
+    #iconomenu{
+        display: block;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    header nav ul{
+        flex-direction: column;
+    }
+
+    .ancho figure {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .burguer{
+        color: var(--Verde);
+    }
+    .burguer i{
+        font-size: 40px;
+    }
+
+    .figuras{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .secNuestro figure{
+        flex-direction: column;
+    }
+
+    .figuras figure img{
+        height: 200px;
+    }
+
+
+    .ancho figure img{
+        width: 50%;
+    }
+
+    nav{
+        background-color: var(--Gris-Menu);
+        width: 100%;
+        padding: 20px;
+    }
+
+    .ancho{
+        padding: 20px;
+    }
+
+    nav ul li{
+        border-bottom: 2px dotted black;
+    }
+
+    .imgFooter{
+        width: 50%;
+        height: auto;
+    }
+
+    .menu{
+        display: none;
+    }
+
+
+
+}
